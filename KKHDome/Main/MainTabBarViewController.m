@@ -33,8 +33,14 @@
     NSLog(@"click :%ld",index);
     if(index != 2){
       self.selectedIndex = index;
+    } else if (index == 4){
+      
     }
-  
+    if(index != 4){
+      [tabbarView updateRedIconWithShow:YES atIndex:4];
+    }else {
+      [tabbarView updateRedIconWithShow:NO atIndex:4];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

@@ -17,6 +17,7 @@
 @property(nonatomic,weak) id<TabbarViewDelegat>delegate;
 
 
+- (void)updateRedIconWithShow:(BOOL)isShow atIndex:(NSInteger)index;
 - (void)showInView:(UIView *)view;
 @end
 

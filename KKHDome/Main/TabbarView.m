@@ -12,23 +12,60 @@
 
 @interface ButtonImageView :UIImageView
 @property(nonatomic,assign) BOOL isSelected;
+@property(nonatomic,assign) BOOL haveRedIcon;
 @end
-@implementation ButtonImageView
+@interface ButtonImageView ()
+@property(nonatomic,strong) UIImageView *redIcon;
+@end
+@implementation ButtonImageView {
+
+}
+- (void)setHaveRedIcon:(BOOL)haveRedIcon {
+    if(haveRedIcon){
+        [self addSubview:self.redIcon];
+    }else {
+        if(self.redIcon.superview){
+            [self.redIcon removeFromSuperview];
+        }
+    }
+    _haveRedIcon = haveRedIcon;
+}
+-(UIImageView *)redIcon {
+    if(!_redIcon){
+        _redIcon = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"cancelSelectButtons"]];
+        _redIcon.frame = CGRectMake(0, 0, 8, 8);
+        _redIcon.center = CGPointMake(self.width/4*3-5, self.height/4+3);
+    }
+    return _redIcon;
+}
 
 @end
 
 @implementation TabbarView {
     ButtonImageView *addBtnImageView;
     ButtonImageView *currentBtnImv;
+    
+    NSMutableArray *btnImageArray;
 }
 
 -(instancetype)init {
     if(self = [super init]) {
         
-        self.frame = CGRectMake(0, SCREEN_HEIGHT-49, SCREEN_WIDTH, 49);
         
+        self.frame = CGRectMake(0, SCREEN_HEIGHT-49, SCREEN_WIDTH, 49);
+        btnImageArray = [[NSMutableArray alloc]initWithCapacity:0];
     }
     return self;
+}
+
+- (void)updateRedIconWithShow:(BOOL)isShow atIndex:(NSInteger)index {
+    if(isShow){
+        ButtonImageView *imageView = [btnImageArray objectAtIndex:index];
+        imageView.haveRedIcon = YES;
+    }else {
+        ButtonImageView *imageView = [btnImageArray objectAtIndex:index];
+        imageView.haveRedIcon = NO;
+    }
 }
 
 - (void)showInView:(UIView *)view {
@@ -39,6 +76,7 @@
         
         for(int i=0;i<count;i++){
             ButtonImageView *imageView = [[ButtonImageView alloc]initWithFrame:CGRectMake(width*i, 0, width, self.height)];
+            
             imageView.tag          = i;
             imageView.isSelected = NO;
             imageView.userInteractionEnabled = YES;
@@ -55,10 +93,12 @@
                 [imageView addSubview:addBtnImageView];
             } else if (i == 0){
                 currentBtnImv = imageView;
+               
                 currentBtnImv.image = [self.selectedImageArray objectAtIndex:i];
+            }else if(i == 4){
+                imageView.haveRedIcon = YES;
             }
-            
-            
+            [btnImageArray addObject:imageView];
         }
     }
     
