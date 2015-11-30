@@ -15,6 +15,16 @@
 		90D31D9F1C0C3B8C00C50433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D31D9D1C0C3B8C00C50433 /* LaunchScreen.storyboard */; };
 		90D31DAA1C0C3B8C00C50433 /* KKHDomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DA91C0C3B8C00C50433 /* KKHDomeTests.m */; };
 		90D31DB51C0C3B8C00C50433 /* KKHDomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DB41C0C3B8C00C50433 /* KKHDomeUITests.m */; };
+		90D31DCA1C0C43DE00C50433 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DC91C0C43DE00C50433 /* MainTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		90D31DCD1C0C4BCA00C50433 /* TabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DCC1C0C4BCA00C50433 /* TabbarView.m */; settings = {ASSET_TAGS = (); }; };
+		90D31DD11C0C503B00C50433 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DD01C0C503B00C50433 /* UIView+Frame.m */; settings = {ASSET_TAGS = (); }; };
+		90D31DD31C0C5A0000C50433 /* xingothic-sc-w4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 90D31DD21C0C5A0000C50433 /* xingothic-sc-w4.otf */; settings = {ASSET_TAGS = (); }; };
+		90D31DD61C0C5A9600C50433 /* SelectedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DD51C0C5A9600C50433 /* SelectedViewController.m */; settings = {ASSET_TAGS = (); }; };
+		90D31DD91C0C5E4800C50433 /* ConcernViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DD81C0C5E4800C50433 /* ConcernViewController.m */; settings = {ASSET_TAGS = (); }; };
+		90D31DDC1C0C5E5200C50433 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DDB1C0C5E5200C50433 /* AddViewController.m */; settings = {ASSET_TAGS = (); }; };
+		90D31DDF1C0C5E5C00C50433 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DDE1C0C5E5C00C50433 /* MessageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		90D31DE21C0C5E6500C50433 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DE11C0C5E6500C50433 /* MeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		90D31DE51C0C5E7D00C50433 /* basicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DE41C0C5E7D00C50433 /* basicViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,26 @@
 		90D31DB01C0C3B8C00C50433 /* KKHDomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKHDomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D31DB41C0C3B8C00C50433 /* KKHDomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKHDomeUITests.m; sourceTree = "<group>"; };
 		90D31DB61C0C3B8C00C50433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D31DC81C0C43DE00C50433 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		90D31DC91C0C43DE00C50433 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		90D31DCB1C0C4BCA00C50433 /* TabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarView.h; sourceTree = "<group>"; };
+		90D31DCC1C0C4BCA00C50433 /* TabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarView.m; sourceTree = "<group>"; };
+		90D31DCE1C0C4EC100C50433 /* CommonMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacros.h; sourceTree = "<group>"; };
+		90D31DCF1C0C503B00C50433 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		90D31DD01C0C503B00C50433 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		90D31DD21C0C5A0000C50433 /* xingothic-sc-w4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "xingothic-sc-w4.otf"; sourceTree = "<group>"; };
+		90D31DD41C0C5A9600C50433 /* SelectedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedViewController.h; sourceTree = "<group>"; };
+		90D31DD51C0C5A9600C50433 /* SelectedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedViewController.m; sourceTree = "<group>"; };
+		90D31DD71C0C5E4800C50433 /* ConcernViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcernViewController.h; sourceTree = "<group>"; };
+		90D31DD81C0C5E4800C50433 /* ConcernViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcernViewController.m; sourceTree = "<group>"; };
+		90D31DDA1C0C5E5200C50433 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		90D31DDB1C0C5E5200C50433 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		90D31DDD1C0C5E5C00C50433 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		90D31DDE1C0C5E5C00C50433 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		90D31DE01C0C5E6500C50433 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		90D31DE11C0C5E6500C50433 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		90D31DE31C0C5E7D00C50433 /* basicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basicViewController.h; sourceTree = "<group>"; };
+		90D31DE41C0C5E7D00C50433 /* basicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = basicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +131,7 @@
 		90D31D8E1C0C3B8C00C50433 /* KKHDome */ = {
 			isa = PBXGroup;
 			children = (
+				90D31DC21C0C3CE600C50433 /* Main */,
 				90D31D921C0C3B8C00C50433 /* AppDelegate.h */,
 				90D31D931C0C3B8C00C50433 /* AppDelegate.m */,
 				90D31D951C0C3B8C00C50433 /* ViewController.h */,
@@ -138,6 +169,73 @@
 				90D31DB61C0C3B8C00C50433 /* Info.plist */,
 			);
 			path = KKHDomeUITests;
+			sourceTree = "<group>";
+		};
+		90D31DC21C0C3CE600C50433 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				90D31DC71C0C3CE600C50433 /* Selected */,
+				90D31DC41C0C3CE600C50433 /* Concern */,
+				90D31DC31C0C3CE600C50433 /* Add */,
+				90D31DC61C0C3CE600C50433 /* Message */,
+				90D31DC51C0C3CE600C50433 /* Me */,
+				90D31DC81C0C43DE00C50433 /* MainTabBarViewController.h */,
+				90D31DC91C0C43DE00C50433 /* MainTabBarViewController.m */,
+				90D31DCB1C0C4BCA00C50433 /* TabbarView.h */,
+				90D31DCC1C0C4BCA00C50433 /* TabbarView.m */,
+				90D31DCE1C0C4EC100C50433 /* CommonMacros.h */,
+				90D31DCF1C0C503B00C50433 /* UIView+Frame.h */,
+				90D31DD01C0C503B00C50433 /* UIView+Frame.m */,
+				90D31DD21C0C5A0000C50433 /* xingothic-sc-w4.otf */,
+				90D31DE31C0C5E7D00C50433 /* basicViewController.h */,
+				90D31DE41C0C5E7D00C50433 /* basicViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		90D31DC31C0C3CE600C50433 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				90D31DDA1C0C5E5200C50433 /* AddViewController.h */,
+				90D31DDB1C0C5E5200C50433 /* AddViewController.m */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		90D31DC41C0C3CE600C50433 /* Concern */ = {
+			isa = PBXGroup;
+			children = (
+				90D31DD71C0C5E4800C50433 /* ConcernViewController.h */,
+				90D31DD81C0C5E4800C50433 /* ConcernViewController.m */,
+			);
+			path = Concern;
+			sourceTree = "<group>";
+		};
+		90D31DC51C0C3CE600C50433 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				90D31DE01C0C5E6500C50433 /* MeViewController.h */,
+				90D31DE11C0C5E6500C50433 /* MeViewController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		90D31DC61C0C3CE600C50433 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				90D31DDD1C0C5E5C00C50433 /* MessageViewController.h */,
+				90D31DDE1C0C5E5C00C50433 /* MessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		90D31DC71C0C3CE600C50433 /* Selected */ = {
+			isa = PBXGroup;
+			children = (
+				90D31DD41C0C5A9600C50433 /* SelectedViewController.h */,
+				90D31DD51C0C5A9600C50433 /* SelectedViewController.m */,
+			);
+			path = Selected;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +343,7 @@
 			files = (
 				90D31D9F1C0C3B8C00C50433 /* LaunchScreen.storyboard in Resources */,
 				90D31D9C1C0C3B8C00C50433 /* Assets.xcassets in Resources */,
+				90D31DD31C0C5A0000C50433 /* xingothic-sc-w4.otf in Resources */,
 				90D31D9A1C0C3B8C00C50433 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +369,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D31DD11C0C503B00C50433 /* UIView+Frame.m in Sources */,
+				90D31DD91C0C5E4800C50433 /* ConcernViewController.m in Sources */,
 				90D31D971C0C3B8C00C50433 /* ViewController.m in Sources */,
+				90D31DCA1C0C43DE00C50433 /* MainTabBarViewController.m in Sources */,
+				90D31DCD1C0C4BCA00C50433 /* TabbarView.m in Sources */,
+				90D31DE51C0C5E7D00C50433 /* basicViewController.m in Sources */,
 				90D31D941C0C3B8C00C50433 /* AppDelegate.m in Sources */,
+				90D31DDF1C0C5E5C00C50433 /* MessageViewController.m in Sources */,
 				90D31D911C0C3B8C00C50433 /* main.m in Sources */,
+				90D31DD61C0C5A9600C50433 /* SelectedViewController.m in Sources */,
+				90D31DE21C0C5E6500C50433 /* MeViewController.m in Sources */,
+				90D31DDC1C0C5E5200C50433 /* AddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KKHDome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.com.KKHDome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KKHDome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.com.KKHDome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
