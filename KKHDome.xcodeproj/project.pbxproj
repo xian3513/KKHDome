@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90CC64BE1C0C837E00E4F454 /* SelectedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC64BC1C0C837E00E4F454 /* SelectedTableViewCell.m */; };
+		90CC64BF1C0C837E00E4F454 /* SelectedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90CC64BD1C0C837E00E4F454 /* SelectedTableViewCell.xib */; };
+		90CC64C41C0C87ED00E4F454 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 90CC64C01C0C87ED00E4F454 /* 1.png */; };
+		90CC64C51C0C87ED00E4F454 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 90CC64C11C0C87ED00E4F454 /* 2.png */; };
+		90CC64C71C0C87ED00E4F454 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 90CC64C31C0C87ED00E4F454 /* 3.png */; };
+		90CC64CA1C0C957500E4F454 /* SelectedHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC64C91C0C957500E4F454 /* SelectedHeaderView.m */; };
 		90D31D911C0C3B8C00C50433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31D901C0C3B8C00C50433 /* main.m */; };
 		90D31D941C0C3B8C00C50433 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31D931C0C3B8C00C50433 /* AppDelegate.m */; };
 		90D31D971C0C3B8C00C50433 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31D961C0C3B8C00C50433 /* ViewController.m */; };
@@ -15,16 +21,16 @@
 		90D31D9F1C0C3B8C00C50433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D31D9D1C0C3B8C00C50433 /* LaunchScreen.storyboard */; };
 		90D31DAA1C0C3B8C00C50433 /* KKHDomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DA91C0C3B8C00C50433 /* KKHDomeTests.m */; };
 		90D31DB51C0C3B8C00C50433 /* KKHDomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DB41C0C3B8C00C50433 /* KKHDomeUITests.m */; };
-		90D31DCA1C0C43DE00C50433 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DC91C0C43DE00C50433 /* MainTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
-		90D31DCD1C0C4BCA00C50433 /* TabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DCC1C0C4BCA00C50433 /* TabbarView.m */; settings = {ASSET_TAGS = (); }; };
-		90D31DD11C0C503B00C50433 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DD01C0C503B00C50433 /* UIView+Frame.m */; settings = {ASSET_TAGS = (); }; };
-		90D31DD31C0C5A0000C50433 /* xingothic-sc-w4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 90D31DD21C0C5A0000C50433 /* xingothic-sc-w4.otf */; settings = {ASSET_TAGS = (); }; };
-		90D31DD61C0C5A9600C50433 /* SelectedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DD51C0C5A9600C50433 /* SelectedViewController.m */; settings = {ASSET_TAGS = (); }; };
-		90D31DD91C0C5E4800C50433 /* ConcernViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DD81C0C5E4800C50433 /* ConcernViewController.m */; settings = {ASSET_TAGS = (); }; };
-		90D31DDC1C0C5E5200C50433 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DDB1C0C5E5200C50433 /* AddViewController.m */; settings = {ASSET_TAGS = (); }; };
-		90D31DDF1C0C5E5C00C50433 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DDE1C0C5E5C00C50433 /* MessageViewController.m */; settings = {ASSET_TAGS = (); }; };
-		90D31DE21C0C5E6500C50433 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DE11C0C5E6500C50433 /* MeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		90D31DE51C0C5E7D00C50433 /* basicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DE41C0C5E7D00C50433 /* basicViewController.m */; settings = {ASSET_TAGS = (); }; };
+		90D31DCA1C0C43DE00C50433 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DC91C0C43DE00C50433 /* MainTabBarViewController.m */; };
+		90D31DCD1C0C4BCA00C50433 /* TabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DCC1C0C4BCA00C50433 /* TabbarView.m */; };
+		90D31DD11C0C503B00C50433 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DD01C0C503B00C50433 /* UIView+Frame.m */; };
+		90D31DD31C0C5A0000C50433 /* xingothic-sc-w4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 90D31DD21C0C5A0000C50433 /* xingothic-sc-w4.otf */; };
+		90D31DD61C0C5A9600C50433 /* SelectedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DD51C0C5A9600C50433 /* SelectedViewController.m */; };
+		90D31DD91C0C5E4800C50433 /* ConcernViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DD81C0C5E4800C50433 /* ConcernViewController.m */; };
+		90D31DDC1C0C5E5200C50433 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DDB1C0C5E5200C50433 /* AddViewController.m */; };
+		90D31DDF1C0C5E5C00C50433 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DDE1C0C5E5C00C50433 /* MessageViewController.m */; };
+		90D31DE21C0C5E6500C50433 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DE11C0C5E6500C50433 /* MeViewController.m */; };
+		90D31DE51C0C5E7D00C50433 /* basicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D31DE41C0C5E7D00C50433 /* basicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90CC64BB1C0C837E00E4F454 /* SelectedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedTableViewCell.h; sourceTree = "<group>"; };
+		90CC64BC1C0C837E00E4F454 /* SelectedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedTableViewCell.m; sourceTree = "<group>"; };
+		90CC64BD1C0C837E00E4F454 /* SelectedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectedTableViewCell.xib; sourceTree = "<group>"; };
+		90CC64C01C0C87ED00E4F454 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		90CC64C11C0C87ED00E4F454 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		90CC64C31C0C87ED00E4F454 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		90CC64C81C0C957500E4F454 /* SelectedHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedHeaderView.h; sourceTree = "<group>"; };
+		90CC64C91C0C957500E4F454 /* SelectedHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedHeaderView.m; sourceTree = "<group>"; };
 		90D31D8C1C0C3B8C00C50433 /* KKHDome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKHDome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D31D901C0C3B8C00C50433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90D31D921C0C3B8C00C50433 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -232,8 +246,16 @@
 		90D31DC71C0C3CE600C50433 /* Selected */ = {
 			isa = PBXGroup;
 			children = (
+				90CC64C01C0C87ED00E4F454 /* 1.png */,
+				90CC64C11C0C87ED00E4F454 /* 2.png */,
+				90CC64C31C0C87ED00E4F454 /* 3.png */,
 				90D31DD41C0C5A9600C50433 /* SelectedViewController.h */,
 				90D31DD51C0C5A9600C50433 /* SelectedViewController.m */,
+				90CC64BB1C0C837E00E4F454 /* SelectedTableViewCell.h */,
+				90CC64BC1C0C837E00E4F454 /* SelectedTableViewCell.m */,
+				90CC64BD1C0C837E00E4F454 /* SelectedTableViewCell.xib */,
+				90CC64C81C0C957500E4F454 /* SelectedHeaderView.h */,
+				90CC64C91C0C957500E4F454 /* SelectedHeaderView.m */,
 			);
 			path = Selected;
 			sourceTree = "<group>";
@@ -341,8 +363,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CC64C71C0C87ED00E4F454 /* 3.png in Resources */,
 				90D31D9F1C0C3B8C00C50433 /* LaunchScreen.storyboard in Resources */,
 				90D31D9C1C0C3B8C00C50433 /* Assets.xcassets in Resources */,
+				90CC64C51C0C87ED00E4F454 /* 2.png in Resources */,
+				90CC64BF1C0C837E00E4F454 /* SelectedTableViewCell.xib in Resources */,
+				90CC64C41C0C87ED00E4F454 /* 1.png in Resources */,
 				90D31DD31C0C5A0000C50433 /* xingothic-sc-w4.otf in Resources */,
 				90D31D9A1C0C3B8C00C50433 /* Main.storyboard in Resources */,
 			);
@@ -372,6 +398,8 @@
 				90D31DD11C0C503B00C50433 /* UIView+Frame.m in Sources */,
 				90D31DD91C0C5E4800C50433 /* ConcernViewController.m in Sources */,
 				90D31D971C0C3B8C00C50433 /* ViewController.m in Sources */,
+				90CC64BE1C0C837E00E4F454 /* SelectedTableViewCell.m in Sources */,
+				90CC64CA1C0C957500E4F454 /* SelectedHeaderView.m in Sources */,
 				90D31DCA1C0C43DE00C50433 /* MainTabBarViewController.m in Sources */,
 				90D31DCD1C0C4BCA00C50433 /* TabbarView.m in Sources */,
 				90D31DE51C0C5E7D00C50433 /* basicViewController.m in Sources */,
@@ -608,6 +636,7 @@
 				90D31DBB1C0C3B8C00C50433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90D31DBC1C0C3B8C00C50433 /* Build configuration list for PBXNativeTarget "KKHDomeTests" */ = {
 			isa = XCConfigurationList;
@@ -616,6 +645,7 @@
 				90D31DBE1C0C3B8C00C50433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90D31DBF1C0C3B8C00C50433 /* Build configuration list for PBXNativeTarget "KKHDomeUITests" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +654,7 @@
 				90D31DC11C0C3B8C00C50433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

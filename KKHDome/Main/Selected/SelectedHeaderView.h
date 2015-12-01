@@ -1,5 +1,5 @@
 //
-//  basicViewController.h
+//  SelectedHeaderView.h
 //  KKHDome
 //
 //  Created by xian on 15/11/30.
@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CommonMacros.h"
-@interface basicViewController : UIViewController
+
+@interface SelectedHeaderView : UIView
 
 @end
